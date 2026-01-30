@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Invitation</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <header class="hero">
+    <div class="overlay"></div>
+    <div class="hero-content">
+      <p class="tag">REMERCIEMENT DE SOUTENANCE</p>
+      <h1>Soutenance de Quefaire NOUNGA</h1>
+      <p class="subtitle">Merci de votre presence pendant ma Soutenance c'etait pour moi un moment unique <br> et stressant en meme temps, mais votre presence était un grand soutient moral et émotionel</p>
+
+      <div class="info">
+        <div class="card">
+          <h3>Date</h3>
+          <p>Samedi 23 Juillet 2023</p>
+        </div>
+        <div class="card">
+          <h3> Heure</h3>
+          <p>15h00</p>
+        </div>
+        <div class="card">
+          <h3>Lieu</h3>
+          <p>Université Marien Ngouabi (Faculté des siences et techniques), Brazzaville</p>
+        </div>
+      </div>
+
+      <div class="buttons">
+        <a class="btn primary" href="https://wa.me/+242067191945?text=Bonjour%20je%20confirme%20ma%20présence%20à%20l'anniversaire%20🎉" target="_blank">
+          Confirmer sur WhatsApp
+        </a>
+
+        <a class="btn secondary" href="https://maps.google.com/?q=Brazzaville" target="_blank">
+          Voir sur Google Maps
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <section class="section">
+  <div class="program-header">
+    <h2>📌 Programme</h2>
+
+    <!-- Bouton Burger -->
+    <button class="burger" id="burgerBtn" aria-label="Ouvrir le programme">
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+  </div>
+
+  <!-- Contenu à dérouler -->
+  <div class="program-content" id="programContent">
+    <ul class="program">
+      <li>15h00 — Arrivée de l'impétrant</li>
+      <li>16h00 — Entrée en salle de Soutenance</li>
+      <li>18h00 — Fin de soutenance et remise des notes</li>
+      <li>19h00 — Photo et mot de clôture</li>
+      <li>19h00 — Heure du crash et vol, la coutume facienne</li>
+    </ul>
+  </div>
+  <section class="section gallery-section">
+    <h2>Album photos</h2>
+    <div class="gallery-grid">
+      <img src="Images/sarah main.JPG" alt="Photo 1" loading="lazy">
+      <img src="Images/famille.JPG" alt="Photo 2" loading="lazy">
+      <img src="Images/Sarah avec son sourir.JPG" alt="Photo 3" loading="lazy">
+      <img src="Images/famille.JPG" alt="Photo 4" loading="lazy">
+      <!-- Ajoute/supprime des <img> selon le nombre d'images -->
+    </div>
+     <div id="lightbox" class="lightbox" aria-hidden="true">
+      <button id="lightboxClose" class="lightbox-close" aria-label="Fermer">✕</button>
+      <img id="lightboxImg" src="" alt="Agrandissement">
+    </div>
+</section>
+<section class="fullpage-message" id="fullMessage" aria-labelledby="fullMessageTitle">
+    <div class="message-wrap">
+      <p>
+        Les personnes qui comptent pour moi, et qui m’ont toujours soutenues dès le départ.<br><br>
+        C’était une longue aventure avec beaucoup de contraintes, mais grâce à Dieu on a pu tenir bon selon sa volonté et nous croyons en toute fermeté que ceci n’est qu’une vitrine de ce que nous réserve notre vie professionnelle, car comme la Bible le dit : Dieu a pour nous des projets de bonheur et non de malheur.
+      </p>
+    </div>
+  </section>
+
+  <section class="section">
+  <section class="section">
+    <h2>Contact</h2>
+    <p>Pour toute question : <strong>+242 06 719 19 45</strong></p>
+  </section>
+  <footer class="footer">
+    <p>Merci et à très bientôt </p>
+  </footer>
+    <script src="Scripte.js"></script>
+  <script src="script.js"></script>
+  <body>
++  <div id="page" class="page">
+   <!-- le reste du contenu existant (header, sections, footer...) -->
+-    <script src="Scripte.js"></script>
+-  <script src="script.js"></script>
++    <script src="Scripte.js"></script>
++  </div> <!-- /#page -->
++</body>
+</html>
